@@ -15,3 +15,4 @@ C++ codes
 1-27 顺序表和链表
 1-28 string的用法
 1-29 string的模拟实现
+1-30 vector模拟实现
