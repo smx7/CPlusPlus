@@ -16,3 +16,4 @@ C++ codes
 1-28 string的用法
 1-29 string的模拟实现
 1-30 vector模拟实现
+1-31 list模拟实现
