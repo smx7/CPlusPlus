@@ -17,3 +17,4 @@ C++ codes
 1-29 string的模拟实现
 1-30 vector模拟实现
 1-31 list模拟实现
+2-1 容器适配器 模拟实现stack和queue
