@@ -1,0 +1,46 @@
+﻿生成启动时间为 2019/1/26 13:42:38。
+     1>项目“D:\代码\C++\红黑树\红黑树\红黑树.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Visual Studio 2013旗舰版\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "源.cpp"
+         源.cpp
+     1>d:\代码\c++\红黑树\红黑树\源.cpp(52): warning C4172: 返回局部变量或临时变量的地址
+                 d:\代码\c++\红黑树\红黑树\源.cpp(49): 编译类 模板 成员函数“Iterator<T> &Iterator<T>::operator ++(int)”时
+                 with
+                 [
+                     T=int
+                 ]
+                 d:\代码\c++\红黑树\红黑树\源.cpp(439): 参见对正在编译的函数 模板 实例化“Iterator<T> &Iterator<T>::operator ++(int)”的引用
+                 with
+                 [
+                     T=int
+                 ]
+                 d:\visual studio 2013旗舰版\vc\include\utility(198): 参见对正在编译的类 模板 实例化“Iterator<T>”的引用
+                 with
+                 [
+                     T=int
+                 ]
+                 d:\代码\c++\红黑树\红黑树\源.cpp(433): 参见对正在编译的类 模板 实例化“std::pair<Iterator<T>,bool>”的引用
+                 with
+                 [
+                     T=int
+                 ]
+     1>d:\代码\c++\红黑树\红黑树\源.cpp(64): warning C4172: 返回局部变量或临时变量的地址
+                 d:\代码\c++\红黑树\红黑树\源.cpp(61): 编译类 模板 成员函数“Iterator<T> &Iterator<T>::operator --(int)”时
+                 with
+                 [
+                     T=int
+                 ]
+                 d:\代码\c++\红黑树\红黑树\源.cpp(441): 参见对正在编译的函数 模板 实例化“Iterator<T> &Iterator<T>::operator --(int)”的引用
+                 with
+                 [
+                     T=int
+                 ]
+     1>d:\代码\c++\红黑树\红黑树\源.cpp(387): warning C4715: “RBTree<int,int>::IsValidRBTree”: 不是所有的控件路径都返回值
+       Link:
+         D:\Visual Studio 2013旗舰版\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\代码\C++\红黑树\Debug\红黑树.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\代码\C++\红黑树\Debug\红黑树.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\代码\C++\红黑树\Debug\红黑树.lib" /MACHINE:X86 "Debug\源.obj"
+         红黑树.vcxproj -> D:\代码\C++\红黑树\Debug\红黑树.exe
+     1>已完成生成项目“D:\代码\C++\红黑树\红黑树\红黑树.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.48
